@@ -387,7 +387,36 @@ section {
   border-radius: 250px;
   font-size:17px;
   cursor: pointer;
-  text-underline-position: none;
+  border:1px solid var(--primary) ;
+  background: transparent;
+  color: white;
+  
+}
+.b1:hover{
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: white;
+}
+.b2{
+  height: 50px;
+  width: 150px;
+  border-radius: 250px;
+  font-size:17px;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+.b2 a{
+  text-decoration: none;
+  color: inherit;
+}
+.b2:hover{
+  background: transparent;
+  border:1px solid var(--primary) ;
+  color: white;
+}
+.b1 a{
+  text-decoration: none;
+  color: inherit;
 }
 .contact-card button:hover {
   transform: scale(1.04);
